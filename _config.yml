@@ -1,0 +1,13 @@
+# Site settings
+title: It's All In The Details
+email: your-email@domain.com
+description: It’s All In The Details premier Finish and Trim Carpentry has been serving the New England area since 1993. 
+We have an unmatched reputation for providing high quality craftsmanship at a reasonable cost.  
+We are well known for our attention to detail and commitment to excellence.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
