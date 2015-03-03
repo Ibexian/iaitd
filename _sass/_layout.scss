@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 5px solid $brand-color;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -16,6 +16,9 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    img {
+        height: 80px;
+    }
 
     &,
     &:visited {
@@ -94,6 +97,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background: url("/img/grey_wash_wall.png")
 }
 
 .footer-heading {
@@ -109,7 +113,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: white;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -126,13 +130,13 @@
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(15% - (#{$spacing-unit} / 2));
+    width:         calc(15% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -166,9 +170,13 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: $brand-color;
 }
-
+.page-text {
+    margin: 2em 0;
+}
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -208,7 +216,7 @@
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+    margin-bottom: 280px;
 
     h2 {
         font-size: 32px;
