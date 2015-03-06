@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Peter Carnazzo
+photo: ../img/photo.jpg
 permalink: /about/
 ---
 
