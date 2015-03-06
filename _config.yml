@@ -3,8 +3,8 @@ title: It's All In The Details
 email: iaitd@hotmail.com
 description: It’s All In the Details
 Phone: 978‐815‐8789
-baseurl: "http://ibexian.github.io/iaitd" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://iaitd.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
